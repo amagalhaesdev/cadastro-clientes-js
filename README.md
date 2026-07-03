@@ -9,10 +9,10 @@ Este repositorio serve como registro de estudo sobre manipulacao do DOM, program
 ## Demonstracao
 
 ### Realizando o cadastro de um novo cliente (POST)
-![Cadastro de Cliente](gif/post.gif)
+![Cadastro de Cliente](gifs/post.gif)
 
 ### Listando e removendo clientes da base de dados (GET / DELETE)
-![Recebimento e Exclusao de Cliente](gif/receive_post.gif)
+![Recebimento e Exclusao de Cliente](gifs/receive_post.gif)
 
 ---
 
