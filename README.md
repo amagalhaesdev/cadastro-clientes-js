@@ -6,6 +6,16 @@ Este repositorio serve como registro de estudo sobre manipulacao do DOM, program
 
 ---
 
+## Demonstracao
+
+### Realizando o cadastro de um novo cliente (POST)
+![Cadastro de Cliente](gif/post.gif)
+
+### Listando e removendo clientes da base de dados (GET / DELETE)
+![Recebimento e Exclusao de Cliente](gif/receive_post.gif)
+
+---
+
 ## Funcionalidades
 
 - Listagem de Clientes (GET): Busca automaticamente os registros armazenados na API assim que a pagina e carregada, renderizando a lista dinamicamente.
@@ -19,12 +29,6 @@ Este repositorio serve como registro de estudo sobre manipulacao do DOM, program
 
 - HTML5: Estrutura para os campos de entrada, botoes e container da listagem.
 - JavaScript (ES6+): Utilizacao de funcoes nativas como Fetch API para requisicoes HTTP, Promises, arrow functions e escutadores de eventos (addEventListener).
-
----
-
-## Exemplo
-
-teste
 
 ---
 
