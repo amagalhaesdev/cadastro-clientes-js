@@ -1,0 +1,132 @@
+/* Reset padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+/* Container principal */
+main {
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+/* Campos de input */
+form input[type="text"],
+form input[type="email"] {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Botão de cadastrar */
+button#add {
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button#add:hover {
+  background-color: #218838;
+}
+
+/* Lista de clientes */
+#listaClientes {
+  list-style: none;
+  padding: 0;
+}
+
+/* Cada item da lista */
+#listaClientes li {
+  background-color: #f8f9fa;
+  margin-bottom: 12px;
+  padding: 12px 15px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+/* Nome e email separados */
+#listaClientes li .nome {
+  font-weight: bold;
+  color: #333;
+}
+
+#listaClientes li .email {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Botão remover */
+#listaClientes li button {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#listaClientes li button:hover {
+  background-color: #c82333;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  form {
+    gap: 10px;
+  }
+
+  #listaClientes li {
+    padding-right: 60px; /* espaço para o botão */
+  }
+}
