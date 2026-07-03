@@ -22,10 +22,16 @@ Este repositorio serve como registro de estudo sobre manipulacao do DOM, program
 
 ---
 
+## Exemplo
+
+teste
+
+---
+
 ## Como Executar o Projeto
 
 Por se tratar de uma aplicacao estatica (client-side), voce nao precisa configurar banco de dados ou servidores back-end locais na sua maquina.
 
 1. Clone o repositorio:
    ```bash
-   git clone [https://github.com/amagalhaesdev/cadastro-clientes-js.git](https://github.com/amagalhaesdev/cadastro-clientes-js.git)
+   git clone https://github.com/amagalhaesdev/cadastro-clientes-js.git
